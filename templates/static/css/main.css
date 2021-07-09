@@ -1,0 +1,29 @@
+header{
+    color: white;
+    height: 50px;
+    background-color: darkred;
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header ul{
+    width: 100%;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    /*background-color: darkblue;*/
+}
+header li{
+    text-align: center;
+    padding: 5px;
+}
+header li:hover{
+    background-color: darkblue;
+}
